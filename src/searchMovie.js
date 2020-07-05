@@ -32,7 +32,7 @@ export default function SearchMovies(props){
                 />
                 <button className="button" type="submit">Search</button>
             </form>
-            <div className="card-list">
+            <div className="card-list1">
                 {movies.filter(movie => movie.poster_path).map(movie => (
                     <MovieCard movie={movie} />
                 ))}
